@@ -1,0 +1,29 @@
+.logUI {
+  margin-top: 20px;
+
+  .card-body {
+    padding: 0 0.5rem;
+    min-height: 200px;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+
+  p {
+    font-size: 13px;
+    margin-bottom: 0;
+
+    &.error {
+      color: #dc3545;
+    }
+
+    &.warning {
+      color: #f7bb07;
+    }
+
+    &.success {
+      color: #28a745;
+    }
+  }
+
+
+}
